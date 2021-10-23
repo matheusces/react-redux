@@ -1,0 +1,85 @@
+.create-content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/teamwork-makes-the-dream-work.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.max-create-content {
+    width: 90%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.max-create-content h4 {
+    margin: 40px;
+}
+
+.max-create-content .form-create-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-create-content .form-create-content form {
+    width: 100%;
+}
+
+.max-create-content .form-create-content .group-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.max-create-content .form-create-content .group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.max-create-content .form-create-content .group-2 #select {
+    width: 230px;
+}
+.max-create-content .form-create-content .group-2 #date {
+    width: 200px;
+}
+.max-create-content .form-create-content .group-2 #salary{
+    width: 200px;
+}
+
+.max-create-content .form-create-content .group-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.max-create-content .form-create-content button {
+    float: right;
+    margin: 75px;
+}
+
+.form-floating {
+    width: 500px;
+    margin-bottom: 20px;
+    color: rgb(75, 75, 75);
+}
+
+.form-control {
+    background-color: rgb(190, 190, 190);
+}
+
+.form-select {
+    background-color: rgb(190, 190, 190);
+}
+
+.form-select option{
+    color: rgb(75, 75, 75);
+}

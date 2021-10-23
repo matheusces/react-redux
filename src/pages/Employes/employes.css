@@ -1,0 +1,49 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../assets/teamwork-makes-the-dream-work.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-content {
+    width: 80%;
+    height: 70%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 236, 236);
+    border-radius: 10px;
+}
+
+.max-content .btn-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.max-content .btn-content button{
+    width: 23%;
+}
+
+.max-content .btn-content p {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table {
+    width: 95% !important;
+}
+
+.table .icon {
+    display: flex;
+    justify-content: center;
+}
